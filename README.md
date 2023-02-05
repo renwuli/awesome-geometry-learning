@@ -62,7 +62,7 @@ The **Geometry Representation** is one of the **Depth**, **Point Cloud**, **Mani
 
 **Mesh**, *[PRS-Net: Planar Reflective Symmetry Detection Net for 3D Models](https://arxiv.org/abs/1910.06511v6)*, 2021, TVCG, ***\[symmetry detection\]***
 
-**mesh/octree/sdf**, *[OctField: Hierarchical Implicit Functions for 3D Modeling](https://arxiv.org/abs/2111.01067)*, 2021, NIPS, ***\[reconstruction\]***
+**Mesh/Octree/SDF**, *[OctField: Hierarchical Implicit Functions for 3D Modeling](https://arxiv.org/abs/2111.01067)*, 2021, NIPS, ***\[reconstruction\]***
 
 **Octree**, *[O-CNN: Octree-based Convolutional Neural Networks for 3D Shape Analysis](https://doi.org/10.1145/3072959.3073608)*, 2017, TOG, ***\[backbone, deep representation\]***
 
@@ -186,7 +186,7 @@ The **Geometry Representation** is one of the **Depth**, **Point Cloud**, **Mani
 
 **RGB-D**, *[Towards Part-Based Understanding of RGB-D Scans](https://arxiv.org/abs/2012.02094)*, 2021, CVPR, ***\[object detection, completion\]***
 
-**rgb/mesh**, *[Single Image 3D Shape Retrieval via Cross-Modal Instance and Category Contrastive Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Single_Image_3D_Shape_Retrieval_via_Cross-Modal_Instance_and_Category_ICCV_2021_paper.pdf)*, 2021, ICCV, ***\[retrieval\]***
+**RGB/Mesh**, *[Single Image 3D Shape Retrieval via Cross-Modal Instance and Category Contrastive Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Single_Image_3D_Shape_Retrieval_via_Cross-Modal_Instance_and_Category_ICCV_2021_paper.pdf)*, 2021, ICCV, ***\[retrieval\]***
 
 **SDF**, *[Spline Positional Encoding for Learning 3D Implicit Signed Distance Fields](https://arxiv.org/abs/2106.01553)*, 2021, IJCAI, ***\[reconstruction\]***
 
