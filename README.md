@@ -1,70 +1,76 @@
-# awesome-geometry learning
+# awesome-geometry-learning
 
 A list of paper related to Geometry Learning. 
 
 Each item is formatted in "**Geometry Representation**, *paper*, year, source, ***[keywords]***" 
 
+The **Geometry Representation** is one of the **Depth**, **Point Cloud**, **Manifold**, **Mesh**, **SDF**, **TSDF**, **Voxel**, **Video**, **Octree**, **RGB**, **RGB-D**
+
 ***
 
-**DEPTH**, *[Temporal Upsampling of Depth Maps Using a Hybrid Camera](http://geometrylearning.com/paper/Temporal2019.pdf)*, 2019, TVCG, ***\[upsampling, sequence learning\]***
+**SDF**, *[End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans](https://openaccess.thecvf.com/content_ICCV_2019/papers/Avetisyan_End-to-End_CAD_Model_Retrieval_and_9DoF_Alignment_in_3D_Scans_ICCV_2019_paper.pdf)*, 2019, ICCV, ***\[retrieval, alignment\]***
 
-**DEPTH**, *[ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion](https://arxiv.org/abs/2105.05600)*, 2021, TOG, ***\[reconstruction\]***
+**SDF**, *[SG-NN: Sparse Generative Neural Networks for Self-Supervised Scene Completion of RGB-D Scans](https://ieeexplore.ieee.org/document/9157644)*, 2020, CVPR, ***\[completion\]***
 
-**DEPTH**, *[Single Depth View Based Real-Time Reconstruction of Hand-Object Interactions](https://dl.acm.org/doi/abs/10.1145/3451341)*, 2021, TOG, ***\[reconstruction, interaction\]***
+**Depth**, *[Temporal Upsampling of Depth Maps Using a Hybrid Camera](http://geometrylearning.com/paper/Temporal2019.pdf)*, 2019, TVCG, ***\[upsampling, sequence learning\]***
 
-**DEPTH**, *[Physical Interaction: Reconstructing Hand-object Interactions with Physics](https://dl.acm.org/doi/10.1145/3550469.3555421)*, 2022, SIGGRAPH ASIA CONFERENCE, ***\[reconstruction, interaction\]***
+**Depth**, *[ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion](https://arxiv.org/abs/2105.05600)*, 2021, TOG, ***\[reconstruction\]***
 
-**MANIFOLD**, *[Bounded Manifold Completion](https://arxiv.org/abs/1912.09026)*, 2021, PR, ***\[completion\]***
+**Depth**, *[Single Depth View Based Real-Time Reconstruction of Hand-Object Interactions](https://dl.acm.org/doi/abs/10.1145/3451341)*, 2021, TOG, ***\[reconstruction, interaction\]***
 
-**MESH**, *[RIMD: Efficient and Flexible Deformation Representation for Data-Driven Surface Modeling](http://geometrylearning.com/paper/Rigidity2017.pdf)*, 2016, TOG, ***\[deformation\]***
+**Depth**, *[Physical Interaction: Reconstructing Hand-object Interactions with Physics](https://dl.acm.org/doi/10.1145/3550469.3555421)*, 2022, SIGGRAPH ASIA CONFERENCE, ***\[reconstruction, interaction\]***
 
-**MESH**, *[Data-Driven Shape Interpolation and Morphing Editing](http://geometrylearning.com/paper/Data-Driven2017.pdf)*, 2017, CGF, ***\[deformation, shape editing, interpolation\]***
+**Manifold**, *[Bounded Manifold Completion](https://arxiv.org/abs/1912.09026)*, 2021, PR, ***\[completion\]***
 
-**MESH**, *[Rigidity Controllable As-Rigid-As-Possible Shape Deformation](https://orca.cardiff.ac.uk/id/eprint/98295/1/DeformationGM2017.pdf)*, 2017, GM, ***\[deformation\]***
+**Mesh**, *[RIMD: Efficient and Flexible Deformation Representation for Data-Driven Surface Modeling](http://geometrylearning.com/paper/Rigidity2017.pdf)*, 2016, TOG, ***\[deformation\]***
 
-**MESH**, *[SparseAE: Mesh-based Autoencoders for Localized Deformation Component Analysis](http://geometrylearning.com/paper/Mesh-based2018.pdf)*, 2018, AAAI, ***\[deformation\]***
+**Mesh**, *[Data-Driven Shape Interpolation and Morphing Editing](http://geometrylearning.com/paper/Data-Driven2017.pdf)*, 2017, CGF, ***\[deformation, shape editing, interpolation\]***
 
-**MESH**, *[MeshVAE: Variational Autoencoders for Deforming 3D Mesh Models](http://geometrylearning.com/paper/Variational2018r.pdf)*, 2018, CVPR, ***\[deformation\]***
+**Mesh**, *[Rigidity Controllable As-Rigid-As-Possible Shape Deformation](https://orca.cardiff.ac.uk/id/eprint/98295/1/DeformationGM2017.pdf)*, 2017, GM, ***\[deformation\]***
 
-**MESH**, *[Bi-harmonic Deformation Transfer with Automatic Key Point Selection](http://geometrylearning.com/paper/Biharmonic2018.pdf)*, 2018, GM, ***\[deformation\]***
+**Mesh**, *[SparseAE: Mesh-based Autoencoders for Localized Deformation Component Analysis](http://geometrylearning.com/paper/Mesh-based2018.pdf)*, 2018, AAAI, ***\[deformation\]***
 
-**MESH**, *[VC-GAN (VAE CYCLE GAN): Automatic Unpaired Shape Deformation Transfer](http://geometrylearning.com/paper/Automatic2018.pdf)*, 2018, TOG, ***\[deformation transfer\]***
+**Mesh**, *[MeshVAE: Variational Autoencoders for Deforming 3D Mesh Models](http://geometrylearning.com/paper/Variational2018r.pdf)*, 2018, CVPR, ***\[deformation\]***
 
-**MESH**, *[Data-Driven Weight Optimization for Real-Time Mesh Deformation](http://geometrylearning.com/paper/Data-Driven2019.pdf)*, 2019, GM, ***\[deformation\]***
+**Mesh**, *[Bi-harmonic Deformation Transfer with Automatic Key Point Selection](http://geometrylearning.com/paper/Biharmonic2018.pdf)*, 2018, GM, ***\[deformation\]***
 
-**MESH**, *[Mesh R-CNN](https://arxiv.org/abs/1906.02739)*, 2019, ICCV, ***\[object detection\]***
+**Mesh**, *[VC-GAN (VAE CYCLE GAN): Automatic Unpaired Shape Deformation Transfer](http://geometrylearning.com/paper/Automatic2018.pdf)*, 2018, TOG, ***\[deformation transfer\]***
 
-**MESH**, *[SDM-NET: Deep Generative Network for Structured Deformable Mesh](http://arxiv.org/abs/1908.04520)*, 2019, TOG, ***\[deformation, shape generation\]***
+**Mesh**, *[Data-Driven Weight Optimization for Real-Time Mesh Deformation](http://geometrylearning.com/paper/Data-Driven2019.pdf)*, 2019, GM, ***\[deformation\]***
 
-**MESH**, *[Mesh Variational Autoencoders with Edge Contraction Pooling](http://geometrylearning.com/meshpooling_cvprw2020.pdf)*, 2020, CVPRW, ***\[vae\]***
+**Mesh**, *[Mesh R-CNN](https://arxiv.org/abs/1906.02739)*, 2019, ICCV, ***\[object detection\]***
 
-**MESH**, *[Automatic 3D Tooth Segmentation using Convolutional Neural Networks in Harmonic Parameter Space](http://www.sciencedirect.com/science/article/pii/S1524070320300151)*, 2020, GM, ***\[segmentation\]***
+**Mesh**, *[SDM-NET: Deep Generative Network for Structured Deformable Mesh](http://arxiv.org/abs/1908.04520)*, 2019, TOG, ***\[deformation, shape generation\]***
 
-**MESH**, *[Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding](https://arxiv.org/abs/1909.12354v3)*, 2020, RAL, ***\[deformation\]***
+**Mesh**, *[Mesh Variational Autoencoders with Edge Contraction Pooling](http://geometrylearning.com/meshpooling_cvprw2020.pdf)*, 2020, CVPRW, ***\[vae\]***
 
-**MESH**, *[Fully Automatic Facial Deformation Transfer](https://www.mdpi.com/2073-8994/12/1/27/pdf)*, 2020, SYMMETRY, ***\[deformation transfer\]***
+**Mesh**, *[Automatic 3D Tooth Segmentation using Convolutional Neural Networks in Harmonic Parameter Space](http://www.sciencedirect.com/science/article/pii/S1524070320300151)*, 2020, GM, ***\[segmentation\]***
 
-**MESH**, *[Differentiable Surface Triangulation](https://dl.acm.org/doi/10.1145/3478513.3480554)*, 2021, TOG, ***\[surface triangulation\]***
+**Mesh**, *[Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding](https://arxiv.org/abs/1909.12354v3)*, 2020, RAL, ***\[deformation\]***
 
-**MESH**, *[TM-NET: Deep Generative Networks for Textured Meshes](https://arxiv.org/abs/2010.06217)*, 2021, TOG, ***\[shape generation, texture\]***
+**Mesh**, *[Fully Automatic Facial Deformation Transfer](https://www.mdpi.com/2073-8994/12/1/27/pdf)*, 2020, SYMMETRY, ***\[deformation transfer\]***
 
-**MESH**, *[Variational Autoencoders for Localized Mesh Deformation Component Analysis](https://ieeexplore.ieee.org/abstract/document/9444875)*, 2021, TPAMI, ***\[deformation\]***
+**Mesh**, *[Differentiable Surface Triangulation](https://dl.acm.org/doi/10.1145/3478513.3480554)*, 2021, TOG, ***\[surface triangulation\]***
 
-**MESH**, *[ACAP: Sparse Data Driven Mesh Deformation](http://geometrylearning.com/paper/sparse2019.pdf)*, 2021, TVCG, ***\[deformation\]***
+**Mesh**, *[TM-NET: Deep Generative Networks for Textured Meshes](https://arxiv.org/abs/2010.06217)*, 2021, TOG, ***\[shape generation, texture\]***
 
-**MESH**, *[Multiscale Mesh Deformation Component Analysis with Attention-based Autoencoders](https://arxiv.org/abs/2012.02459.pdf)*, 2021, TVCG, ***\[deformation\]***
+**Mesh**, *[Variational Autoencoders for Localized Mesh Deformation Component Analysis](https://ieeexplore.ieee.org/abstract/document/9444875)*, 2021, TPAMI, ***\[deformation\]***
 
-**MESH**, *[PRS-Net: Planar Reflective Symmetry Detection Net for 3D Models](https://arxiv.org/abs/1910.06511v6)*, 2021, TVCG, ***\[symmetry detection\]***
+**Mesh**, *[ACAP: Sparse Data Driven Mesh Deformation](http://geometrylearning.com/paper/sparse2019.pdf)*, 2021, TVCG, ***\[deformation\]***
 
-**MESH/OCTREE/SDF**, *[OctField: Hierarchical Implicit Functions for 3D Modeling](https://arxiv.org/abs/2111.01067)*, 2021, NIPS, ***\[reconstruction\]***
+**Mesh**, *[Multiscale Mesh Deformation Component Analysis with Attention-based Autoencoders](https://arxiv.org/abs/2012.02459.pdf)*, 2021, TVCG, ***\[deformation\]***
 
-**OCTREE**, *[O-CNN: Octree-based Convolutional Neural Networks for 3D Shape Analysis](https://doi.org/10.1145/3072959.3073608)*, 2017, TOG, ***\[backbone, deep representation\]***
+**Mesh**, *[PRS-Net: Planar Reflective Symmetry Detection Net for 3D Models](https://arxiv.org/abs/1910.06511v6)*, 2021, TVCG, ***\[symmetry detection\]***
 
-**OCTREE**, *[Adaptive O-CNN: A Patch-based Deep Representation of 3D Shapes](https://doi.org/10.1145/3272127.3275050)*, 2018, TOG, ***\[backbone, deep representation\]***
+**mesh/octree/sdf**, *[OctField: Hierarchical Implicit Functions for 3D Modeling](https://arxiv.org/abs/2111.01067)*, 2021, NIPS, ***\[reconstruction\]***
 
-**OCTREE**, *[Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion](https://arxiv.org/abs/2006.03762)*, 2020, CVPRW, ***\[completion\]***
+**Octree**, *[O-CNN: Octree-based Convolutional Neural Networks for 3D Shape Analysis](https://doi.org/10.1145/3072959.3073608)*, 2017, TOG, ***\[backbone, deep representation\]***
 
-**OCTREE**, *[Dual Octree Graph Networks for Learning Adaptive Volumetric Shape Representations](https://arxiv.org/abs/2205.02825)*, 2022, TOG, ***\[volumetric shape representation\]***
+**Octree**, *[Adaptive O-CNN: A Patch-based Deep Representation of 3D Shapes](https://doi.org/10.1145/3272127.3275050)*, 2018, TOG, ***\[backbone, deep representation\]***
+
+**Octree**, *[Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion](https://arxiv.org/abs/2006.03762)*, 2020, CVPRW, ***\[completion\]***
+
+**Octree**, *[Dual Octree Graph Networks for Learning Adaptive Volumetric Shape Representations](https://arxiv.org/abs/2205.02825)*, 2022, TOG, ***\[volumetric shape representation\]***
 
 **Point Cloud**, *[Consolidation of Unorganized Point Clouds for Surface Reconstruction](https://www.cs.tau.ac.il/~dcor/articles/2009/Consolidation-of-Unorganized.pdf)*, 2009, TOG, ***\[reconstruction\]***
 
@@ -124,11 +130,11 @@ Each item is formatted in "**Geometry Representation**, *paper*, year, source, *
 
 **Point Cloud**, *[Point-Based Multi-View Stereo Network](https://arxiv.org/pdf/1908.04422.pdf)*, 2019, ICCV, ***\[multi-view stereo\]***
 
-**Point Cloud**, *[PointAE: Point Auto-encoder for 3D Statistical Shape and Texture Modelling](PointAE: Point Auto-Encoder for 3D Statistical Shape and Texture Modelling (thecvf.com))*, 2019, ICCV, ***\[shape generation\]***
+**Point Cloud**, *[PointAE: Point Auto-encoder for 3D Statistical Shape and Texture Modelling](https://openaccess.thecvf.com/content_ICCV_2019/papers/Dai_PointAE_Point_Auto-Encoder_for_3D_Statistical_Shape_and_Texture_Modelling_ICCV_2019_paper.pdf)*, 2019, ICCV, ***\[shape generation\]***
 
 **Point Cloud**, *[PointCloud Saliency Maps](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_PointCloud_Saliency_Maps_ICCV_2019_paper.pdf)*, 2019, ICCV, ***\[salience detection\]***
 
-**Point Cloud**, *[PointFlow: 3D Point Cloud shape generation with Continuous Normalizing Flows](https://openaccess.thecvf.com/content_ICCV_2019/html/Yang_PointFlow_3D_Point_Cloud_shape generation_With_Continuous_Normalizing_Flows_ICCV_2019_paper.html)*, 2019, ICCV, ***\[shape generation\]***
+**Point Cloud**, *[PointFlow: 3D Point Cloud shape generation with Continuous Normalizing Flows](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_PointFlow_3D_Point_Cloud_Generation_With_Continuous_Normalizing_Flows_ICCV_2019_paper.pdf)*, 2019, ICCV, ***\[shape generation\]***
 
 **Point Cloud**, *[RepPoints: Point Set Representation for Object Detection](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_RepPoints_Point_Set_Representation_for_Object_Detection_ICCV_2019_paper.pdf#:~:text=Figure%201.%20RepPointsis%20a%20new%20representation%20for%20object,ob-jectdetector%20thatyields%20improved%20performance%20compared%20to%20usingbounding%20boxes.)*, 2019, ICCV, ***\[object detection\]***
 
@@ -180,21 +186,17 @@ Each item is formatted in "**Geometry Representation**, *paper*, year, source, *
 
 **RGB-D**, *[Towards Part-Based Understanding of RGB-D Scans](https://arxiv.org/abs/2012.02094)*, 2021, CVPR, ***\[object detection, completion\]***
 
-**RGB/MESH**, *[Single Image 3D Shape Retrieval via Cross-Modal Instance and Category Contrastive Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Single_Image_3D_Shape_Retrieval_via_Cross-Modal_Instance_and_Category_ICCV_2021_paper.pdf)*, 2021, ICCV, ***\[retrieval\]***
+**rgb/mesh**, *[Single Image 3D Shape Retrieval via Cross-Modal Instance and Category Contrastive Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Single_Image_3D_Shape_Retrieval_via_Cross-Modal_Instance_and_Category_ICCV_2021_paper.pdf)*, 2021, ICCV, ***\[retrieval\]***
 
 **SDF**, *[Spline Positional Encoding for Learning 3D Implicit Signed Distance Fields](https://arxiv.org/abs/2106.01553)*, 2021, IJCAI, ***\[reconstruction\]***
 
 **SDF**, *[SDF-StyleGAN: Implicit SDF-Based StyleGAN for 3D Shape shape generation](https://arxiv.org/abs/2206.12055)*, 2022, SGP, ***\[shape generation\]***
 
-**TSDF**, *[End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans](https://openaccess.thecvf.com/content_ICCV_2019/papers/Avetisyan_End-to-End_CAD_Model_Retrieval_and_9DoF_Alignment_in_3D_Scans_ICCV_2019_paper.pdf)*, 2019, ICCV, ***\[retrieval, alignment\]***
+**Video**, *[Real-time 3D Face Reconstruction and Gaze Tracking for Virtual Reality](http://geometrylearning.com/paper/Real-time2018.pdf)*, 2018, VR, ***\[reconstruction, gaze tracking\]***
 
-**TSDF**, *[SG-NN: Sparse Generative Neural Networks for Self-Supervised Scene Completion of RGB-D Scans](https://ieeexplore.ieee.org/document/9157644)*, 2020, CVPR, ***\[completion\]***
+**Video**, *[Editable Free-Viewpoint Video using a Layered Neural Representation](https://arxiv.org/abs/2104.14786)*, 2021, TOG, ***\[novel view syntheis visual editing, neural rendering\]***
 
-**VIDEO**, *[Real-time 3D Face Reconstruction and Gaze Tracking for Virtual Reality](http://geometrylearning.com/paper/Real-time2018.pdf)*, 2018, VR, ***\[reconstruction, gaze tracking\]***
+**Video**, *[3D Face Reconstruction and Gaze Tracking in the HMD for Virtual Interaction](https://ieeexplore.ieee.org/document/9729783/)*, 2022, TOM, ***\[reconstruction, gaze tracking\]***
 
-**VIDEO**, *[Editable Free-Viewpoint Video using a Layered Neural Representation](https://arxiv.org/abs/2104.14786)*, 2021, TOG, ***\[novel view syntheis visual editing, neural rendering\]***
-
-**VIDEO**, *[3D Face Reconstruction and Gaze Tracking in the HMD for Virtual Interaction](https://ieeexplore.ieee.org/document/9729783/)*, 2022, TOM, ***\[reconstruction, gaze tracking\]***
-
-**VOXEL**, *[Interpolation-Aware Padding for 3D Sparse Convolutional Neural Networks](https://arxiv.org/abs/2108.06925)*, 2021, ICCV, ***\[segmentation, object detection, interpolation\]***
+**Voxel**, *[Interpolation-Aware Padding for 3D Sparse Convolutional Neural Networks](https://arxiv.org/abs/2108.06925)*, 2021, ICCV, ***\[segmentation, object detection, interpolation\]***
 
