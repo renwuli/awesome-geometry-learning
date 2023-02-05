@@ -2,7 +2,7 @@
 
 A list of paper related to Geometry Learning. 
 
-Each item is formatted in "**Geometry Representation**, *paper*, year, source, ***[keywords]***" 
+Each item is formatted in "**Geometry Representation**, ***[keywords]***, *paper*, year, source" 
 
 The **Geometry Representation** is one of the **Depth**, **Point Cloud**, **Manifold**, **Mesh**, **SDF**, **TSDF**, **Voxel**, **Video**, **Octree**, **RGB**, **RGB-D**
 
