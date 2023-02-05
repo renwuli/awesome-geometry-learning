@@ -34,7 +34,7 @@
 
 **Point Cloud**, *[Interpolated Convolutional Networks for 3D Point Cloud Understanding](https://openaccess.thecvf.com/content_ICCV_2019/papers/Mao_Interpolated_Convolutional_Networks_for_3D_Point_Cloud_Understanding_ICCV_2019_paper.pdf)*, 2019, ICCV, <u>backbone, classification, segmentation</u>
 
-**Point Cloud**, *[KPConv: Flexible and Deformable Convolution for Point Clouds](https://www.bing.com/ck/a?!&&p=fb987117052ed552JmltdHM9MTY3NTQ2ODgwMCZpZ3VpZD0wZDczZjQ0Zi1kZWRhLTY0MjQtMzI0OC1lNjFlZGY5MDY1MDgmaW5zaWQ9NTE0Mw&ptn=3&hsh=3&fclid=0d73f44f-deda-6424-3248-e61edf906508&psq=KPConv%3a+Flexible+and+Deformable+Convolution+for+Point+Clouds&u=a1aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE5MDQuMDg4ODl2MQ&ntb=1)*, 2019, ICCV, <u>backbone, classification, segmentation</u>
+**Point Cloud**, *[KPConv: Flexible and Deformable Convolution for Point Clouds](https://arxiv.org/pdf/1904.08889v1.pdf)*, 2019, ICCV, <u>backbone, classification, segmentation</u>
 
 **Point Cloud**, *[LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.pdf)*, 2019, ICCV, <u>recognition</u>
 
@@ -52,7 +52,7 @@
 
 **Point Cloud**, *[Total Denoising: Unsupervised Learning of 3D Point Cloud Cleaning](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hermosilla_Total_Denoising_Unsupervised_Learning_of_3D_Point_Cloud_Cleaning_ICCV_2019_paper.pdf)*, 2019, ICCV, <u>denoising</u>
 
-**Point Cloud**, *[USIP: Unsupervised Stable Interest Point object detection from 3D Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_USIP_Unsupervised_Stable_Interest_Point_object detection_From_3D_Point_Clouds_ICCV_2019_paper.pdf)*, 2019, ICCV, <u>keypoint detection</u>
+**Point Cloud**, *[USIP: Unsupervised Stable Interest Point object detection from 3D Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_USIP_Unsupervised_Stable_Interest_Point_Detection_From_3D_Point_Clouds_ICCV_2019_paper.pdf)*, 2019, ICCV, <u>keypoint detection</u>
 
 **Point Cloud**, *[Unsupervised Multi-Task Feature Learning on Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/html/Hassani_Unsupervised_Multi-Task_Feature_Learning_on_Point_Clouds_ICCV_2019_paper.html)*, 2019, ICCV, <u>multi-task</u>
 
